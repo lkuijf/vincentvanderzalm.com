@@ -1,0 +1,38 @@
+$screenBreakpoint: 960px;
+
+@import 'inc/contact-form';
+
+.text {
+    h1 {
+        border-left: calc(5px + 0.1em) solid #c3a25a;
+        padding-left: calc(5px + 0.5em);
+    }
+    > div {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    &.bgc-gold {
+        background-color: #c3a25a;
+    }
+    .boxit {
+        display: flex;
+        gap: 40px;
+        @media (max-width: $screenBreakpoint) {
+            flex-wrap: wrap;
+        }
+        padding-top: 80px;
+        padding-bottom: 80px;
+        > div {
+            flex: 1 1 50%;
+            @media (max-width: $screenBreakpoint) {
+                flex: 0 0 100%;
+            }
+        }
+        &.text_left {
+            flex-direction: row-reverse;
+        }
+    }
+}

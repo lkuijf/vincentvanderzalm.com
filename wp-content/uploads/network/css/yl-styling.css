@@ -1,0 +1,230 @@
+/*star rating for products*/ 
+.woocommerce-review-link {
+	display: none !important;
+} 
+
+#yl-hidden, .yl-hidden {
+	display: none !important;
+}
+
+.acf-label {
+    text-transform: uppercase !important;
+	color: #000;
+    font-size: 0.75rem !important;
+    margin-bottom: 5px !important;
+}
+
+@media (max-width: 9999px) {
+	.tm-toolbar.uk-visible\@m {
+		display: block !important;
+	}
+}
+
+@media print {
+	.yl_whatsapp {
+		display: none !important;
+	}
+}
+
+.uk-overlay {
+    border-radius: 5px !important;
+}
+
+.yl-text-twitter, .yw-text-twitter a {
+	color: #33ccff;
+}
+
+.yl-text-facebook, .yw-text-facebook a {
+	color: #3b5998;
+}
+
+.yl-text-youtube, .yw-text-youtube a {
+	color: #c12025;
+}
+
+.yl-text-google, .yw-text-google a {
+	color: #3a7cec;
+}
+
+/* Start WooCommerce Various styling */
+.form-row .input-checkbox {
+	margin-right: inherit !important;
+}
+
+/* Start Datepicker styling */
+.ui-datepicker {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .15) !important;
+	border-radius: 5px !important;
+	border: 0 !important;
+	font-size: 16px !important;
+	padding: 0 !important;
+}
+
+.ui-datepicker-title {
+	padding-top: 2px !important;
+	text-transform: uppercase !important;
+}
+
+.ui-datepicker-calendar th {
+	background-color: #eee !important;
+	padding: 5px !important;
+}
+
+.ui-state-default {
+	border-radius: 3px !important;
+	text-align: center !important;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+	border-radius: 3px !important;
+	text-align: center !important;
+}
+
+.ui-datepicker-prev .ui-icon  {
+	background:url('../../../themes/yootheme/vendor/assets/uikit/src/images/icons/chevron-left.svg') no-repeat !important;
+	text-align: center !important;
+	margin-top: -10px !important;
+}
+
+.ui-datepicker-next .ui-icon  {
+	background:url('../../../themes/yootheme/vendor/assets/uikit/src/images/icons/chevron-right.svg') no-repeat !important;
+	text-align: center !important;
+	margin-top: -10px !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: 1px solid #999 !important;
+	background-color: #ccc !important;
+	color: #000 !important;
+}
+
+/* Moving scroll down icon svg */
+@-webkit-keyframes ani-mouse {
+    0% {
+    opacity: 1;
+    top: 29%;
+    }
+    15% {
+    opacity: 1;
+    top: 50%;
+    }
+    50% {
+    opacity: 0;
+    top: 50%;
+    }
+    100% {
+    opacity: 0;
+    top: 29%;
+    }
+}
+@-moz-keyframes ani-mouse {
+    0% {
+    opacity: 1;
+    top: 29%;
+    }
+    15% {
+    opacity: 1;
+    top: 50%;
+    }
+    50% {
+    opacity: 0;
+    top: 50%;
+    }
+    100% {
+    opacity: 0;
+    top: 29%;
+    }
+}
+@keyframes ani-mouse {
+    0% {
+    opacity: 1;
+    top: 29%;
+    }
+    15% {
+    opacity: 1;
+    top: 50%;
+    }
+    50% {
+    opacity: 0;
+    top: 50%;
+    }
+    100% {
+    opacity: 0;
+    top: 29%;
+    }
+}
+ .yl-scroll-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.yl-scroll-btn > * {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #7f8c8d;
+    color: #ffffff;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.yl-scroll-btn > *:hover,
+.yl-scroll-btn > *:focus,
+.yl-scroll-btn > *.active {
+    color: #ffffff;
+}
+.yl-scroll-btn > *:hover,
+.yl-scroll-btn > *:focus,
+.yl-scroll-btn > *:active,
+.yl-scroll-btn > *.active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.yl-scroll-btn .mouse {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 55px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 23px;
+}
+.yl-scroll-btn .mouse > * {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+    background: white;
+    border-radius: 50%;
+    -webkit-animation: ani-mouse 2.0s linear infinite;
+    -moz-animation: ani-mouse 2.0s linear infinite;
+    animation: ani-mouse 2.0s linear infinite;
+}
+
+.woocommerce .includes_tax .amount {
+    display: none !important;
+}
+
+.woocommerce small.includes_tax {
+    display: none !important;
+}
+
+del {
+    font-size: 75%;
+    color: #999;
+}

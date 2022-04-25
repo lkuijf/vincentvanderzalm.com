@@ -1,0 +1,70 @@
+#contactForm {
+    max-width: 1200px;
+    padding: 0px 40px 20px 40px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 1px solid #CCC;
+    // text-align: center;
+    > div {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    div.fieldlist {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 5%;
+        div {
+            flex: 45%;
+            @media (max-width: $screenBreakpoint) {
+                flex: 100%;
+            }
+            padding: 0;
+        }
+    }
+    input, textarea, button, select {
+        // font-family: $fontFamily;
+        font-size: 18px;
+        padding: 10px;
+    }
+    input, textarea {
+        border: 2px solid #999;
+        &:not([type=checkbox]) {
+            width: 100%;
+        }
+        &[type=checkbox] {
+            transform: scale(1.5);
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+    button {
+        cursor: pointer;
+        // background-color: $colorGold;
+        color: #000;
+        font-weight: bold;
+    }
+    .error {
+        input, textarea {
+            border-color: red;
+        }
+        span {
+            color: red;
+            display: block;
+        }
+    }
+}
+.alert {
+    min-height: 120px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    &.alert-success {
+        background-color: rgb(111, 219, 111);
+    }
+    &.alert-danger {
+        background-color: #ff2929
+    }
+}
