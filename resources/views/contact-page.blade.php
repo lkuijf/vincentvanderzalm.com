@@ -18,6 +18,11 @@
             <div><p>Bedankt voor uw bericht! We nemen zo spoedig mogelijk contact op.</p></div>
         </div>
     @endif
+    @if(session('recaptcha_error'))
+        <div class="alert alert-danger">
+            <div><p>{{ session('recaptcha_error') }}</p></div>
+        </div>
+    @endif
     @if($errors->any())
         <div class="alert alert-danger">
             {{-- <div><p class="exclamationTriangleIcon"></i></div> --}}

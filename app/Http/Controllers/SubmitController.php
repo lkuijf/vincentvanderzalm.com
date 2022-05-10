@@ -42,6 +42,14 @@ class SubmitController extends Controller
             // return redirect()->back()->withErrors($validator)->withInput();
         }
 
+        $recaptcha_response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=6Lc2cW4dAAAAAK8XzLuTKsjqYLXq9e9m-ujcihND&response=' . $request->get('g-recaptcha-response'));
+        $google_recaptcha_response = json_decode($recaptcha_response);
+        if($google_recaptcha_response->success == false || (isset($google_recaptcha_response->score) && (float)$google_recaptcha_response->score <= 0.5)) {
+            return redirect('/contact')->with('recaptcha_error', 'Het formulier kon niet gevalideerd worden, neem a.u.b contact op. Foutcode: ' . $google_recaptcha_response->success . ' - ' . (isset($google_recaptcha_response->score)?$google_recaptcha_response->score:'AA'));
+        }
+        $request->merge([
+            'g-recaptcha-score' => $google_recaptcha_response->score,
+        ]);
 
         // $to_email = 'leon.kuijf@gmail.com';
         $to_email = 'info@vincentvanderzalm.com';
@@ -149,19 +157,28 @@ class SubmitController extends Controller
                         background-color: #FFF;
                         border: 1px solid #CCC;
                     ">
-                    <p style="text-align:center;"><img src="' . $imgLocation . '" alt="logo" /></p>
+                    <p style="text-align:center;"><img src="' . $imgLocation . '" alt="JusBros logo" /></p>
         ';
 
-        $bottomHtml = '';
+        $messageCompany = '';
+        $messageVisitor = '';
         foreach($values as $i => $v) {
             if($i == '_token' || $i == 'g-recaptcha-response') continue;
-            $bottomHtml .= '
+            $messageCompany .= '
+            <p>
+                ' . str_replace('_', ' ', $i) . ':<br />
+                <strong>' . (trim($v) == ''?'-':$v) . '</strong>
+            </p>
+            ';
+            if($i == 'g-recaptcha-score') continue;
+            $messageVisitor .= '
             <p>
                 ' . str_replace('_', ' ', $i) . ':<br />
                 <strong>' . (trim($v) == ''?'-':$v) . '</strong>
             </p>
             ';
         }
+        $bottomHtml = '';
         $bottomHtml .= '
                     </div>
         <!--[if mso]>
@@ -173,8 +190,8 @@ class SubmitController extends Controller
         </body></html>
         ';
 
-        $message1 = $topHtml . '<p>' . $introTextCompany . '</p>' . $bottomHtml;
-        $message2 = $topHtml . '<p>' . $introTextVisitor . '</p>' . $bottomHtml;
+        $message1 = $topHtml . '<p>' . $introTextCompany . '</p>' . $messageCompany . $bottomHtml;
+        $message2 = $topHtml . '<p>' . $introTextVisitor . '</p>' . $messageVisitor . $bottomHtml;
 
         return array($message1, $message2);
     }
