@@ -1,0 +1,110 @@
+#contactForm {
+  max-width: 1200px;
+  padding: 0px 40px 20px 40px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactForm > div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#contactForm div.fieldlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 5%;
+}
+#contactForm div.fieldlist div {
+  flex: 45%;
+  padding: 0;
+}
+@media (max-width: 960px) {
+  #contactForm div.fieldlist div {
+    flex: 100%;
+  }
+}
+#contactForm input, #contactForm textarea, #contactForm button, #contactForm select {
+  font-size: 18px;
+  padding: 10px;
+}
+#contactForm input, #contactForm textarea {
+  border: 2px solid #999;
+}
+#contactForm input:not([type=checkbox]), #contactForm textarea:not([type=checkbox]) {
+  width: 100%;
+}
+#contactForm input[type=checkbox], #contactForm textarea[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  cursor: pointer;
+}
+#contactForm button {
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+}
+#contactForm .error input, #contactForm .error textarea {
+  border-color: red;
+}
+#contactForm .error span {
+  color: red;
+  display: block;
+}
+
+.alert {
+  min-height: 120px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.alert.alert-success {
+  background-color: rgb(111, 219, 111);
+}
+.alert.alert-danger {
+  background-color: #ff2929;
+}
+
+.text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.text h1 {
+  border-left: calc(5px + 0.1em) solid #c3a25a;
+  padding-left: calc(5px + 0.5em);
+}
+.text > div {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.text.bgc-gold {
+  background-color: #c3a25a;
+}
+.text.bgc-gold h1 {
+  border-left: calc(5px + 0.1em) solid #194B59;
+  padding-left: calc(5px + 0.5em);
+}
+.text .boxit {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 960px) {
+  .text .boxit {
+    flex-wrap: wrap;
+  }
+}
+.text .boxit > div {
+  flex: 1 1 50%;
+}
+@media (max-width: 960px) {
+  .text .boxit > div {
+    flex: 0 0 100%;
+  }
+}
+.text .boxit.text_left {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,8 @@ $screenBreakpoint: 960px;
 @import 'inc/contact-form';
 
 .text {
+    padding-top: 80px;
+    padding-bottom: 80px;
     h1 {
         border-left: calc(5px + 0.1em) solid #c3a25a;
         padding-left: calc(5px + 0.5em);
@@ -16,6 +18,10 @@ $screenBreakpoint: 960px;
     }
     &.bgc-gold {
         background-color: #c3a25a;
+        h1 {
+            border-left: calc(5px + 0.1em) solid #194B59;
+            padding-left: calc(5px + 0.5em);
+        }
     }
     .boxit {
         display: flex;
@@ -23,8 +29,8 @@ $screenBreakpoint: 960px;
         @media (max-width: $screenBreakpoint) {
             flex-wrap: wrap;
         }
-        padding-top: 80px;
-        padding-bottom: 80px;
+        // padding-top: 80px;
+        // padding-bottom: 80px;
         > div {
             flex: 1 1 50%;
             @media (max-width: $screenBreakpoint) {

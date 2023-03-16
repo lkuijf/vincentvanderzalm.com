@@ -121,13 +121,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small" uk-grid>
                     <li>
-                <a href="https://www.instagram.com/chef_vincent_vinniejoness" class="uk-icon-link" target="_blank"  uk-icon="icon: instagram;"></a>
+                <a href="{{ $data['website_options']['instagram'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: instagram;"></a>
             </li>
                     <li>
-                <a href="https://www.facebook.com/VincentvanderZalm" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
+                <a href="{{ $data['website_options']['facebook'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
             </li>
                     <li>
-                <a href="https://twitter.com/vinniejoness" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
+                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
             </li>
             </ul>
 </div>
@@ -184,13 +184,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small" uk-grid>
                     <li>
-                <a href="https://www.instagram.com/chef_vincent_vinniejoness" class="uk-icon-link" target="_blank"  uk-icon="icon: instagram;"></a>
+                <a href="{{ $data['website_options']['instagram'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: instagram;"></a>
             </li>
                     <li>
-                <a href="https://www.facebook.com/VincentvanderZalm" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
+                <a href="{{ $data['website_options']['facebook'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
             </li>
                     <li>
-                <a href="https://twitter.com/vinniejoness" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
+                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
             </li>
             </ul>
 </div>
