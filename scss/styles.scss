@@ -22,6 +22,9 @@ $screenBreakpoint: 960px;
             border-left: calc(5px + 0.1em) solid #194B59;
             padding-left: calc(5px + 0.5em);
         }
+        a {
+            color: #194B59;
+        }
     }
     .boxit {
         display: flex;

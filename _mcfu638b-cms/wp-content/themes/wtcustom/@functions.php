@@ -67,11 +67,6 @@ $carbonFieldsArgs['websiteOptions'] = $websiteOptions;
 //     }
 // }
 
-add_action('save_post_page', 'deleteSimplePagesRestCache');
-function deleteSimplePagesRestCache() {
-    \WP_Rest_Cache_Plugin\Includes\Caching\Caching::get_instance()->delete_cache_by_endpoint( '/_mcfu638b-cms/index.php/wp-json/wtcustom/simple-pages' );
-}
-
 
 if (!current_user_can('administrator')) {
     add_filter('bulk_actions-edit-page', 'remove_from_bulk_actions');
@@ -110,7 +105,6 @@ function crbRegisterFields($args) {
         ->where( 'post_type', '=', 'page' )
         ->where( 'post_template', '=', 'template-section-based.php' )
         ->add_fields( array(
-            Field::make( 'checkbox', 'hide_from_menu', __('Hide page from menu (page is still available via permalink)') )->set_visible_in_rest_api($visible = true),
             Field::make( 'complex', 'crb_sections', 'Sections' )->set_visible_in_rest_api($visible = true)
                 ->set_layout( 'tabbed-vertical' )
                 // ->add_fields( 'hero', 'Banner without text', array(
@@ -632,9 +626,6 @@ function getMediaSimplified(WP_REST_Request $request) {
 }
 function getPagesSimplified(WP_REST_Request $request) {
     $pages = get_pages();
-    foreach($pages as $k => $page) {
-        $pages[$k]->hide_from_menu = get_post_meta($page->ID, '_hide_from_menu');
-    }
     $aRes = getPagesCollectionAttrs($pages);
     $response = new WP_REST_Response($aRes);
     $response->set_status(200);
@@ -688,10 +679,6 @@ function getPagesCollectionAttrs($coll) {
         $oP->order = $item->menu_order;
         $oP->status = $item->post_status;
         $oP->date = $item->post_date;
-
-        $oP->hide_from_menu = false;
-        if(count($item->hide_from_menu) && $item->hide_from_menu[0] == 'yes') $oP->hide_from_menu = true;
-
         $aRes[] = $oP;
     }
     return $aRes;

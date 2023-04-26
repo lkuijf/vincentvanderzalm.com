@@ -51,7 +51,6 @@ class PagesController extends Controller
             'head_title' => $content->pageTitle,
             'meta_description' => $content->pageMetaDescription,
             'html_menu' => $htmlMenu->html,
-            'html_menu_mobile' => $htmlMenu->html_mobile,
             'website_options' => $options,
             // 'cart_total' => $cartTotalItems,
             // 'user_logged_in' => $loggedInUserId,

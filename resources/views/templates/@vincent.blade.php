@@ -104,15 +104,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="uk-panel">
 
     
-    {!! $data['html_menu_mobile'] !!}    
-{{-- <ul class="uk-nav uk-nav-primary">
+    
+<ul class="uk-nav uk-nav-primary">
     
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item uk-active"><a href="/"> Home</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="livestreams"> Livestreams</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pop-up-koken"> Pop-up koken</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="consultancy"> Consultancy</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="thuisdiners"> Thuisdiners</a></li>
-</ul> --}}
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="thuisdiners"> Thuisdiners</a></li></ul>
 
 </div>
 </div>    <div>
@@ -163,15 +162,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <div class="uk-navbar-center">
 
                         
-{!! $data['html_menu'] !!}                                  
-{{-- <ul class="uk-navbar-nav">
+                                                    
+<ul class="uk-navbar-nav">
     
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item uk-active"><a href="/"> Home</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="livestreams"> Livestreams</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pop-up-koken"> Pop-up koken</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="consultancy"> Consultancy</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="thuisdiners"> Thuisdiners</a></li>
-</ul> --}}
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="thuisdiners"> Thuisdiners</a></li></ul>
 
 
                         
@@ -246,8 +244,8 @@ if($path == '/') {
         <img class="el-image" alt="Vincent van der Zalm pop-up koken" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-pop-up-koken-mono-de3e491d.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzc2OCw0MzIsNzY4LDQzMl1dLFsiZG9Dcm9wIixbNzY4LDQzMiwwLDBdXV1d&amp;hash=f161a09ec198d863da8defa40dd3c262 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzEwMjQsNTc2LDEwMjQsNTc2XV0sWyJkb0Nyb3AiLFsxMDI0LDU3NiwwLDBdXV1d&amp;hash=a95f15ac968c6c76d46fdc406b7bd5c9 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzEzNjUsNzY4LDEzNjUsNzY4XV0sWyJkb0Nyb3AiLFsxMzY2LDc2OCwwLDBdXV1d&amp;hash=fcf449d658619118c1354f2e382e02ee 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzE2MDAsOTAwLDE2MDAsOTAwXV0sWyJkb0Nyb3AiLFsxNjAwLDkwMCwwLDBdXV1d&amp;hash=937535f23e270adedbacb29c40f7d5c2 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-pop-up-koken-mono-de3e491d.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
         </div>
 <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
-<h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom"> JusBros. </h3>
-<div class="el-content uk-panel uk-margin-top">Ontwikkeld voor elke keuken: de perfecte plantaardige jus de veau.</div>
+<h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Pop-up koken    </h3>
+<div class="el-content uk-panel uk-margin-top">Elke maand wordt een verrassende locatie omgetoverd tot pop-up restaurant.</div>
 <div class="uk-margin-top"><a class="el-link uk-link-text" href="pop-up-koken">Lees meer&#8230;</a></div>
     </div>
 </div>
@@ -353,8 +351,8 @@ if($path == '/pop-up-koken') {
         
             
                 
-<h1 class="uk-h1 uk-heading-bullet">        JusBros.    </h1>
-<h1 class="uk-h4 uk-width-xlarge">        Ontwikkeld voor elke keuken: de perfecte plantaardige jus de veau.    </h1>
+<h1 class="uk-h1 uk-heading-bullet">        Pop-up koken    </h1>
+<h1 class="uk-h4 uk-width-xlarge">        Elke maand wordt een verrassende locatie omgetoverd tot pop-up restaurant.    </h1>
             
         
     
