@@ -128,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="{{ $data['website_options']['facebook'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
             </li>
                     <li>
-                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
+                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: linkedin;"></a>
             </li>
             </ul>
 </div>
@@ -192,7 +192,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="{{ $data['website_options']['facebook'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: facebook;"></a>
             </li>
                     <li>
-                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: twitter;"></a>
+                <a href="{{ $data['website_options']['twitter'] }}" class="uk-icon-link" target="_blank"  uk-icon="icon: linkedin;"></a>
             </li>
             </ul>
 </div>
@@ -228,19 +228,47 @@ if($path == '/') {
 <div uk-slideshow="ratio: false; autoplay: 1; pauseOnHover: false; ; autoplayInterval: 5000;" class="uk-margin">
     <div class="uk-position-relative">
         
-            <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; minHeight: 300;">                                <li class="el-item" >
-                    
+            <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; minHeight: 300;">
 
+
+                <li class="el-item" >
         <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
         <img class="el-image" alt="Vincent van der Zalm livestreams" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-livestream-lachend-grayscale-d8a6b99b.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFs3NjgsNDMyLDc2OCw0MzJdXSxbImRvQ3JvcCIsWzc2OCw0MzIsMCwwXV1dXQ%3D%3D&amp;hash=8de6bd5a3c33718c7035efffffbad777 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxMDI0LDU3NiwxMDI0LDU3Nl1dLFsiZG9Dcm9wIixbMTAyNCw1NzYsMCwwXV1dXQ%3D%3D&amp;hash=17f64ec795fbcead2732dc1d5c10b874 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxMzY1LDc2OCwxMzY1LDc2OF1dLFsiZG9Dcm9wIixbMTM2Niw3NjgsMCwwXV1dXQ%3D%3D&amp;hash=375aa393ab1b87f0914d659a46038501 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxNjAwLDkwMCwxNjAwLDkwMF1dLFsiZG9Dcm9wIixbMTYwMCw5MDAsMCwwXV1dXQ%3D%3D&amp;hash=fb2509f81841bc99826672d8214367ac 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-livestream-lachend-grayscale-d8a6b99b.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
         </div>
 <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
-<h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Livestreams    </h3>
-<div class="el-content uk-panel uk-margin-top">Kook tegelijk met je collega&#8217;s live mee met sterrenchef Vincent van der Zalm.</div>
-<div class="uk-margin-top"><a class="el-link uk-link-text" href="livestreams">Lees meer&#8230;</a></div>
+<h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Vincent van der Zalm     </h3>
+<div class="el-content uk-panel uk-margin-top">Werk samen met een ervaren sterrenchef aan je culinaire uitdagingen. </div>
+{{-- <div class="uk-margin-top"><a class="el-link uk-link-text" href="livestreams">Lees meer&#8230;</a></div> --}}
     </div>
 </div>
                 </li>
+
+
+                <li class="el-item" >
+                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-center" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
+                    <img class="el-image" alt="Vincent van der Zalm thuisdiners" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-thuisdiners-mono-b37b93a3.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbNzY4LDQzMiw3NjgsNDMyXV0sWyJkb0Nyb3AiLFs3NjgsNDMyLDAsMF1dXV0%3D&amp;hash=f8d8c36fbd07b9d88dfcf7277424e7fb 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTAyNCw1NzYsMTAyNCw1NzZdXSxbImRvQ3JvcCIsWzEwMjQsNTc2LDAsMF1dXV0%3D&amp;hash=1ef81f2f99e919ab6dcc3f75de3eedae 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTM2NSw3NjgsMTM2NSw3NjhdXSxbImRvQ3JvcCIsWzEzNjYsNzY4LDAsMF1dXV0%3D&amp;hash=4823e55f9f1a4831a1033c8c305dc4f1 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTYwMCw5MDAsMTYwMCw5MDBdXSxbImRvQ3JvcCIsWzE2MDAsOTAwLDAsMF1dXV0%3D&amp;hash=f8dfa1483181de3b8118943aa8ae5190 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-thuisdiners-mono-b37b93a3.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
+                    </div>
+            <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
+            <h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Receptontwikkeling    </h3>
+            <div class="el-content uk-panel uk-margin-top">Gedreven door smaak en kwaliteit, ontwikkelt Vincent recepturen tot perfectie.</div>
+            <div class="uk-margin-top"><a class="el-link uk-link-text" href="receptontwikkeling">Lees meer&#8230;</a></div>
+                </div>
+            </div>
+                            </li>
+            
+                            <li class="el-item" >
+                                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
+                                <img class="el-image" alt="Vincent van der Zalm consultancy" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-consultancy-mono-de36b14c.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbNzY4LDQzMiw3NjgsNDMyXV0sWyJkb0Nyb3AiLFs3NjgsNDMyLDAsMF1dXV0%3D&amp;hash=102ac4a8452444a6519865dc7af6a9ee 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTAyNCw1NzYsMTAyNCw1NzZdXSxbImRvQ3JvcCIsWzEwMjQsNTc2LDAsMF1dXV0%3D&amp;hash=6d3e67d7372c9300de90cd5216bba2d2 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTM2NSw3NjgsMTM2NSw3NjhdXSxbImRvQ3JvcCIsWzEzNjYsNzY4LDAsMF1dXV0%3D&amp;hash=1f28dcfa49a2572d34be11f2449776b6 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTYwMCw5MDAsMTYwMCw5MDBdXSxbImRvQ3JvcCIsWzE2MDAsOTAwLDAsMF1dXV0%3D&amp;hash=cd930854f540f7daeabec5520480668b 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-consultancy-mono-de36b14c.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
+                                </div>
+                        <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
+                        <h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Consultancy    </h3>
+                        <div class="el-content uk-panel uk-margin-top">Advies op maat over (vegan) recepten, menukaarten, restaurantconcepten en meer.</div>
+                        <div class="uk-margin-top"><a class="el-link uk-link-text" href="consultancy">Lees meer&#8230;</a></div>
+                            </div>
+                        </div>
+                                        </li>
+                        
+
                                 <li class="el-item" >
         <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
         <img class="el-image" alt="Vincent van der Zalm pop-up koken" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-pop-up-koken-mono-de3e491d.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzc2OCw0MzIsNzY4LDQzMl1dLFsiZG9Dcm9wIixbNzY4LDQzMiwwLDBdXV1d&amp;hash=f161a09ec198d863da8defa40dd3c262 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzEwMjQsNTc2LDEwMjQsNTc2XV0sWyJkb0Nyb3AiLFsxMDI0LDU3NiwwLDBdXV1d&amp;hash=a95f15ac968c6c76d46fdc406b7bd5c9 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzEzNjUsNzY4LDEzNjUsNzY4XV0sWyJkb0Nyb3AiLFsxMzY2LDc2OCwwLDBdXV1d&amp;hash=fcf449d658619118c1354f2e382e02ee 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItcG9wLXVwLWtva2VuLW1vbm8uanBnIixbWyJkb1Jlc2l6ZSIsWzE2MDAsOTAwLDE2MDAsOTAwXV0sWyJkb0Nyb3AiLFsxNjAwLDkwMCwwLDBdXV1d&amp;hash=937535f23e270adedbacb29c40f7d5c2 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-pop-up-koken-mono-de3e491d.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
@@ -248,47 +276,64 @@ if($path == '/') {
 <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
 <h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom"> JusBros. </h3>
 <div class="el-content uk-panel uk-margin-top">Ontwikkeld voor elke keuken: de perfecte plantaardige jus de veau.</div>
-<div class="uk-margin-top"><a class="el-link uk-link-text" href="pop-up-koken">Lees meer&#8230;</a></div>
+<div class="uk-margin-top"><a class="el-link uk-link-text" href="jusbros-3">Lees meer&#8230;</a></div>
     </div>
 </div>
                 </li>
-                                <li class="el-item" >
-        <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
-        <img class="el-image" alt="Vincent van der Zalm consultancy" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-consultancy-mono-de36b14c.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbNzY4LDQzMiw3NjgsNDMyXV0sWyJkb0Nyb3AiLFs3NjgsNDMyLDAsMF1dXV0%3D&amp;hash=102ac4a8452444a6519865dc7af6a9ee 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTAyNCw1NzYsMTAyNCw1NzZdXSxbImRvQ3JvcCIsWzEwMjQsNTc2LDAsMF1dXV0%3D&amp;hash=6d3e67d7372c9300de90cd5216bba2d2 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTM2NSw3NjgsMTM2NSw3NjhdXSxbImRvQ3JvcCIsWzEzNjYsNzY4LDAsMF1dXV0%3D&amp;hash=1f28dcfa49a2572d34be11f2449776b6 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItY29uc3VsdGFuY3ktbW9uby5qcGciLFtbImRvUmVzaXplIixbMTYwMCw5MDAsMTYwMCw5MDBdXSxbImRvQ3JvcCIsWzE2MDAsOTAwLDAsMF1dXV0%3D&amp;hash=cd930854f540f7daeabec5520480668b 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-consultancy-mono-de36b14c.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
-        </div>
-<div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
-<h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Consultancy    </h3>
-<div class="el-content uk-panel uk-margin-top">Vincent van der Zalm is als consultant actief bij verschillende horeca-gelegenheden.</div>
-<div class="uk-margin-top"><a class="el-link uk-link-text" href="consultancy">Lees meer&#8230;</a></div>
-    </div>
-</div>
-                </li>
+
+
+
+
+                <li class="el-item" >
+                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
+                    <img class="el-image" alt="Vincent van der Zalm livestreams" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-livestream-lachend-grayscale-d8a6b99b.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFs3NjgsNDMyLDc2OCw0MzJdXSxbImRvQ3JvcCIsWzc2OCw0MzIsMCwwXV1dXQ%3D%3D&amp;hash=8de6bd5a3c33718c7035efffffbad777 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxMDI0LDU3NiwxMDI0LDU3Nl1dLFsiZG9Dcm9wIixbMTAyNCw1NzYsMCwwXV1dXQ%3D%3D&amp;hash=17f64ec795fbcead2732dc1d5c10b874 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxMzY1LDc2OCwxMzY1LDc2OF1dLFsiZG9Dcm9wIixbMTM2Niw3NjgsMCwwXV1dXQ%3D%3D&amp;hash=375aa393ab1b87f0914d659a46038501 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1saXZlc3RyZWFtLWxhY2hlbmQtZ3JheXNjYWxlLmpwZyIsW1siZG9SZXNpemUiLFsxNjAwLDkwMCwxNjAwLDkwMF1dLFsiZG9Dcm9wIixbMTYwMCw5MDAsMCwwXV1dXQ%3D%3D&amp;hash=fb2509f81841bc99826672d8214367ac 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-livestream-lachend-grayscale-d8a6b99b.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
+                    </div>
+            <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
+            <h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Brasserie Amare     </h3>
+            <div class="el-content uk-panel uk-margin-top">Gevestigd in Den Haag: plant-based genieten voor iedereen.  </div>
+            <div class="uk-margin-top"><a class="el-link uk-link-text" href="brasserie-amare">Lees meer&#8230;</a></div>
+                </div>
+            </div>
+                            </li>
+            
+
+                
+
                                 <li class="el-item" >
         <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-center" style="-webkit-animation-duration: 10s; animation-duration: 10s;">    
         <img class="el-image" alt="Vincent van der Zalm thuisdiners" uk-img="target: !.uk-slideshow-items" uk-cover data-src="/wp-content/themes/yootheme/cache/VincentVanDerZalm-header-thuisdiners-mono-b37b93a3.jpeg" data-srcset="https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbNzY4LDQzMiw3NjgsNDMyXV0sWyJkb0Nyb3AiLFs3NjgsNDMyLDAsMF1dXV0%3D&amp;hash=f8d8c36fbd07b9d88dfcf7277424e7fb 768w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTAyNCw1NzYsMTAyNCw1NzZdXSxbImRvQ3JvcCIsWzEwMjQsNTc2LDAsMF1dXV0%3D&amp;hash=1ef81f2f99e919ab6dcc3f75de3eedae 1024w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTM2NSw3NjgsMTM2NSw3NjhdXSxbImRvQ3JvcCIsWzEzNjYsNzY4LDAsMF1dXV0%3D&amp;hash=4823e55f9f1a4831a1033c8c305dc4f1 1366w, https://vincentvanderzalm.com/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMTlcLzIwMjFcLzAzXC9WaW5jZW50VmFuRGVyWmFsbS1oZWFkZXItdGh1aXNkaW5lcnMtbW9uby5qcGciLFtbImRvUmVzaXplIixbMTYwMCw5MDAsMTYwMCw5MDBdXSxbImRvQ3JvcCIsWzE2MDAsOTAwLDAsMF1dXV0%3D&amp;hash=f8dfa1483181de3b8118943aa8ae5190 1600w, /wp-content/themes/yootheme/cache/VincentVanDerZalm-header-thuisdiners-mono-b37b93a3.jpeg 1920w" data-sizes="(max-aspect-ratio: 1920/1080) 178vh" data-width="1920" data-height="1080">        
         </div>
 <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-section">    <div class="el-overlay uk-overlay uk-overlay-default uk-width-large uk-margin-remove-first-child">
 <h3 class="el-title uk-h1 uk-heading-bullet uk-margin-top uk-margin-remove-bottom">        Thuisdiners    </h3>
-<div class="el-content uk-panel uk-margin-top">Vincent neemt met liefde uw plaats in de keuken in en tovert een smakelijk diner op tafel.</div>
+<div class="el-content uk-panel uk-margin-top">Exclusief en onvergetelijk: een sterrendiner aan je eigen eettafel.</div>
 <div class="uk-margin-top"><a class="el-link uk-link-text" href="thuisdiners">Lees meer&#8230;</a></div>
     </div>
 </div>
                 </li>
+
+
                             </ul>
 <div class="uk-position-bottom-center uk-position-medium uk-visible@s">
 <ul class="el-nav uk-dotnav uk-flex-center" uk-margin>        <li uk-slideshow-item="0">
-        <a href="#">Livestreams</a>
+        <a href="#">Vincent van der Zalm</a>
     </li>
         <li uk-slideshow-item="1">
-        <a href="#">Pop-up koken</a>
+        <a href="#">Receptontwikkeling</a>
     </li>
         <li uk-slideshow-item="2">
         <a href="#">Consultancy</a>
     </li>
-        <li uk-slideshow-item="3">
+    <li uk-slideshow-item="3">
+        <a href="#">JusBros.</a>
+    </li>
+    </li>
+    <li uk-slideshow-item="4">
+        <a href="#">Brasserie Amare</a>
+    </li>
+    <li uk-slideshow-item="5">
         <a href="#">Thuisdiners</a>
     </li>
-    </ul>
+</ul>
 
 </div>
     </div>
@@ -543,7 +588,7 @@ if($path == '/privacy') {
         </ul>
 
 </div>
-<div class="uk-panel uk-text-meta uk-margin uk-text-center">© 2021 Vincent van der Zalm.<br class="uk-hidden@s"> Alle rechten voorbehouden.<br class="uk-hidden@s"></div>
+<div class="uk-panel uk-text-meta uk-margin uk-text-center">© {{ date('Y') }} Vincent van der Zalm.<br class="uk-hidden@s"> Alle rechten voorbehouden.<br class="uk-hidden@s"></div>
                 
             
         

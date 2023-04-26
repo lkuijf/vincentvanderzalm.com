@@ -66,10 +66,6 @@
   background-color: #ff2929;
 }
 
-.text {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
 .text h1 {
   border-left: calc(5px + 0.1em) solid #c3a25a;
   padding-left: calc(5px + 0.5em);
@@ -83,17 +79,14 @@
 }
 .text.bgc-gold {
   background-color: #c3a25a;
-}
-.text.bgc-gold h1 {
-  border-left: calc(5px + 0.1em) solid #194B59;
-  padding-left: calc(5px + 0.5em);
-}
-.text.bgc-gold a {
-  color: #194B59;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .text .boxit {
   display: flex;
   gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 @media (max-width: 960px) {
   .text .boxit {
@@ -110,4 +103,12 @@
 }
 .text .boxit.text_left {
   flex-direction: row-reverse;
+}
+
+.uk-width-large {
+  width: 550px !important;
+}
+
+.uk-panel {
+  width: 70%;
 }/*# sourceMappingURL=styles.css.map */
