@@ -88,9 +88,6 @@
   border-left: calc(5px + 0.1em) solid #194B59;
   padding-left: calc(5px + 0.5em);
 }
-.text.bgc-gold a {
-  color: #194B59;
-}
 .text .boxit {
   display: flex;
   gap: 40px;
