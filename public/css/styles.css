@@ -82,6 +82,12 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.text.bgc-gold a {
+  color: #22343b;
+}
+.text.bgc-gold a:hover {
+  color: #194b59;
+}
 .text .boxit {
   display: flex;
   gap: 40px;

@@ -18,6 +18,12 @@ $screenBreakpoint: 960px;
         background-color: #c3a25a;
         padding-top: 80px;
         padding-bottom: 80px;
+        a {
+            color: #22343b;
+            &:hover {
+                color: #194b59;
+            }
+        }
     }
     .boxit {
         display: flex;
