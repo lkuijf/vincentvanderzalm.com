@@ -53,6 +53,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="wp-content/themes/yootheme/js/theme4250.js?ver=2.7.0"></script>
 <script>var $theme = {"cookie":{"mode":"notification","template":"<div class=\"tm-cookie-banner uk-section uk-section-xsmall uk-section-primary uk-position-bottom uk-position-fixed\">\n        <div class=\"uk-container uk-container-expand uk-text-center\">\n\n            <p class=\"uk-margin-remove\">In verband met Europese privacywetgeving zijn wij verplicht te melden dat deze website gebruik maakt van functionele cookies.<\/p>\n\n<p class=\"uk-margin-remove-top\">In geen geval verstrekken wij gegevens aan derden en wij slaan geen gegevens op anders dan noodzakelijk.<\/p>\n                            <button type=\"button\" class=\"js-accept uk-button uk-button-default uk-margin-small-left\" data-uk-toggle=\"target: !.uk-section; animation: true\">Ik begrijp het<\/button>\n            \n            \n        <\/div>\n    <\/div>","position":"bottom"}};</script>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+
+<!-- Leadinfo tracking code -->
+<script> (function(l,e,a,d,i,n,f,o){if(!l[i]){l.GlobalLeadinfoNamespace=l.GlobalLeadinfoNamespace||[];
+l.GlobalLeadinfoNamespace.push(i);l[i]=function(){(l[i].q=l[i].q||[]).push(arguments)};l[i].t=l[i].t||n;
+l[i].q=l[i].q||[];o=e.createElement(a);f=e.getElementsByTagName(a)[0];o.async=1;o.src=d;f.parentNode.insertBefore(o,f);}
+}(window,document,"script","https://cdn.leadinfo.net/ping.js","leadinfo","LI-6571B9E1CD1BD")); </script>
+    
+
     </head>
     <body class="home page-template-default page page-id-2 ">
 <!-- Google Tag Manager (noscript) -->
